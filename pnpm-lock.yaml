@@ -8,6 +8,9 @@ dependencies:
   '@types/node':
     specifier: ^20.10.7
     version: 20.10.7
+  env:
+    specifier: ^0.0.2
+    version: 0.0.2
   nodemon:
     specifier: ^3.0.2
     version: 3.0.2
@@ -154,6 +157,11 @@ packages:
   /diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
+    dev: false
+
+  /env@0.0.2:
+    resolution: {integrity: sha512-yP8LfjO4ughSHD/3HgLPinWzexmaOGvRfs2TFx0SZhOm7j1xPi9evjuGcLiNVHIGLmcsgMak4eDbBzlYqGIVxw==}
+    engines: {node: '>= 0.5.9'}
     dev: false
 
   /fill-range@7.0.1:
